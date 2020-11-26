@@ -1,0 +1,9 @@
+
+
+<form>
+    Please Enter your Airplane Number:<input type="string" name="Airplane number" #Airplane_no>
+    Please Enter your No. Of Booked Ticekts:<input type="number" name="BookedTickets" #BookedTickets>
+</form>
+
+<button (click)="fetchdata(Airplane_no.value,
+BookedTickets.value)" class="btn btn-primary" mdbWavesEffect>Bookticket</button>
